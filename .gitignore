@@ -1,0 +1,88 @@
+# データベースファイル
+*.db
+*.sqlite
+*.sqlite3
+quiz.db
+
+# SQLiteジャーナルファイル
+*.db-journal
+*.db-shm
+*.db-wal
+
+# データベースバックアップ
+*_backup*.db
+*_backup*.sql
+
+# 環境設定ファイル（本番用）
+.env
+.env.local
+.env.production
+config.php
+
+# ログファイル
+*.log
+logs/
+error.log
+access.log
+
+# OSファイル
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# エディタ・IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# PHPキャッシュ
+vendor/
+composer.phar
+composer.lock
+.phpunit.result.cache
+
+# 一時ファイル
+tmp/
+temp/
+cache/
+*.tmp
+*.bak
+*.cache
+
+# セッションファイル
+sessions/
+session_*
+
+# アップロードファイル（もし追加する場合）
+uploads/
+files/
+
+# バックアップファイル
+backup/
+*.backup
+
+# node_modules（もしフロントエンドツールを使う場合）
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# PHP依存関係
+/vendor/
+
+# テスト関連
+coverage/
+phpunit.xml
+.phpunit.cache/
